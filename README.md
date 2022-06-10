@@ -11,10 +11,6 @@ We will also use the `RandomOverSampler` and `SMOTE` algorithms to oversample th
 ---
 # :one: Overview of the analysis: Explain the purpose of this analysis.
 
-El objetivo de este analisis es aplicar seis modelos diferentes de unbalanced machine learning a un mismo dataset y comparar los resultados obtenidos.  El dataset utilizado contiene las aplicaciones de crédito para el primer trimestre del 2019, obtenido de una empresa de créditos personales llamada LendingClub.  El archivo de datos original contiene la información de `115,675` aplicaciones.
-
-El estudio de los datos se hace con dos archivos de codigo de Python, usando Jupyter Notebooks:
-
 The objective of this analysis is to apply six different unbalanced machine learning models to the same dataset and compare the results obtained.  The dataset used contains the credit applications for the first quarter of 2019, obtained from a personal credit company called **LendingClub**.  The original data file contains information on `115,675` applications.
 
 The study of the data is done with two Python code files, using Jupyter Notebooks:
@@ -26,12 +22,49 @@ Translated with www.DeepL.com/Translator (free version)
 
 [**Code File #2**: credit_risk_ensemble.ipynb](https://github.com/Peteresis/Credit_Risk_Analysis/blob/e08cba0cb4d441409df51a5e494665d156c13120/credit_risk_ensemble.ipynb)
 
-Ambos archivos están basados en el starter code provisto por el curso.  Al inicio de los archivos hay una serie de manipulaciones para limpiar el dataset.  Estas operaciones de limpieza de datos se hace usando la librería Pandas de Python.
+Both files are based on the starter code provided by the course.  At the beginning of the files there are a series of manipulations to clean the dataset.  These data cleaning operations are done using the Python Pandas library.
 
-La columna `loan_status` del dataset se determina si el credThe original dataset contained 115,675 loan applications in Q1 of 2019. We used the "loan status" to determine whether the application was considered "low" or "high" risk. Applications that had "current" as the "loan status" were classified as "low risk" and the remaining as "high risk". This reduced the dataset to 68,817 total applications with 99% classified as "low risk".
+In the dataset there is a column named `loan_status` which contains the following values: `Charged Off`, `Current`, `Fully Paid`, `In Grace Period`, `Issued`, `Late (16-30 days)`, `Late (31-120 days)`.
+
+For this analysis, the applications were classified into two groups: 
+
+The **low risk** group, composed of the applications marked as `Current`
+
+The **high risk** group which is composed of applications marked with these values (`In Grace Period`, `Late (16-30 days)`, `Late (31-120 days)`).
+
+Applications marked as `Issued`, `Fully Paid` and `Charged Off` were ignored.
+
+With these operations the dataset was reduced from `115,675` applications to `68,817`.
 
 
-Usando la librería Pandas de Python
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/98360572/172030002-e3fe19f0-f388-4959-b5de-c341b1803970.png" width="50%" height="50%">
