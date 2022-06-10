@@ -72,12 +72,12 @@ This is another function from the `sklearn` Python Library.  It creates a 3x3 ta
 
 ### classification_report_imbalanced
 This function comes from the `imblearn` Python Library.  It builds a classification report based on metrics used with imbalanced datasets.  Specific metrics have been proposed to evaluate the classification performed on an imbalanced dataset. This report compiles the state-of-the-art metrics:
-▶️**Accuracy Score**: tells us what percentage of predictions the model gets it right. However, it is not enough just to see that results, especially with unbalanced data. Equation: accuracy score = number of correct prediction / total number of predictions
-▶️**Precision**: is the measure of how reliable a positive classification is. A low precision is indicative of a large number of false positives. Equation: Precision = TP/(TP + FP)
-▶️**Recall**: is the ability of the classifier to find all the positive samples. A low recall is indicative of a large number of false negatives. Equation: Recall = TP/(TP + FN)
-▶️**Specificity**:
-▶️**F1 Score**: is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0 (3). Equation: F1 score = 2(Precision * Sensitivity)/(Precision + Sensitivity)
-▶️**Geometric Mean**:
+▶️**Accuracy Score**: Tells us what percentage of predictions the model gets it right. However, it is not enough just to see that results, especially with unbalanced data. Equation: accuracy score = number of correct prediction / total number of predictions
+▶️**Precision**: Is the measure of how reliable a positive classification is. A low precision is indicative of a large number of false positives. Equation: Precision = TP/(TP + FP)
+▶️**Recall**: Is the ability of the classifier to find all the positive samples. A low recall is indicative of a large number of false negatives. Equation: Recall = TP/(TP + FN)
+▶️**Specificity**: Specificity is the recall of negative values. It answers the question “Of all of my negative predictions, what proportion of them are correct?”. This may be important in situations where examining the relative proportion of false positives is necessary.
+▶️**F1 Score**: Is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0 (3). Equation: F1 score = 2(Precision * Sensitivity)/(Precision + Sensitivity)
+▶️**Geometric Mean**: A less common metric that is somewhat analogous to the F1 score is the G-Mean. This is often cast in two different formulations, the first being the precision-recall g-mean, and the second being the sensitivity-specificity g-mean. They can be used in a similar manner to the F1 score in terms of analyzing algorithmic performance.
 ▶️**index balanced accuracy of the geometric mean**:
 
 
