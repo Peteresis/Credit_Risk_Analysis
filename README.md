@@ -74,11 +74,11 @@ This is another function from the `sklearn` Python Library.  It creates a 3x3 ta
 This function comes from the `imblearn` Python Library.  It builds a classification report based on metrics used with imbalanced datasets.  Specific metrics have been proposed to evaluate the classification performed on an imbalanced dataset. This report compiles the state-of-the-art metrics:
 ▶️**Accuracy Score**: tells us what percentage of predictions the model gets it right. However, it is not enough just to see that results, especially with unbalanced data. Equation: accuracy score = number of correct prediction / total number of predictions
 ▶️**Precision**: is the measure of how reliable a positive classification is. A low precision is indicative of a large number of false positives. Equation: Precision = TP/(TP + FP)
-* Recall: is the ability of the classifier to find all the positive samples. A low recall is indicative of a large number of false negatives. Equation: Recall = TP/(TP + FN)
-* Specificity
-* F1 Score: is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0 (3). Equation: F1 score = 2(Precision * Sensitivity)/(Precision + Sensitivity)
-* Geometric Mean
-* index balanced accuracy of the geometric mean.
+▶️**Recall**: is the ability of the classifier to find all the positive samples. A low recall is indicative of a large number of false negatives. Equation: Recall = TP/(TP + FN)
+▶️**Specificity**:
+▶️**F1 Score**: is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0 (3). Equation: F1 score = 2(Precision * Sensitivity)/(Precision + Sensitivity)
+▶️**Geometric Mean**:
+▶️**index balanced accuracy of the geometric mean**:
 
 
 
