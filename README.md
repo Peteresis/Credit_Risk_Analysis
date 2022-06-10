@@ -11,11 +11,25 @@ We will also use the `RandomOverSampler` and `SMOTE` algorithms to oversample th
 ---
 # :one: Overview of the analysis: Explain the purpose of this analysis.
 
-Manufacturers and publishers can get product reviews through the Amazon Vine program. Small fees are paid to Amazon by companies like SellBy, which then offer Amazon Vine users with items in exchange for a product review.
 
-As part of this project, we had access to roughly 50 datasets. From clothing to wireless devices, each one discusses the pros and cons of a single product. The dataset selected for this analysis was **Pet Products**. After selecting the dataset, we used the PySpark Python library to perform an `ETL process` (**E**xtract, **T**ransform and **L**oad) to extract the information in the dataset, perform the neccesary transformations and load the data into `pgAdmin` via an `AWS RDS instance`.
 
-As a further step, we then used `Python's PySpark library` to see if Amazon's Vine members are more likely to give positive evaluations of the products.
 
-## Deliverable 1
+---
+# :two: Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+
+
+---
+
+# :three: Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+
+---
+
+## :four: References
+
+**Module 17: Supervised Machine Learning**, https://courses.bootcampspot.com/courses/1145/pages/17-dot-0-1-introduction-to-machine-learning, :copyright: 2020-2021 Trilogy Education Services, Web 21 May 2022.
+
+**Stack Overflow: scikit learn output metrics.classification_report into CSV/tab-delimited format**, https://stackoverflow.com/questions/39662398/scikit-learn-output-metrics-classification-report-into-csv-tab-delimited-format
+
+**GitHub: [BUG] 'BalancedBaggingClassifier' and 'EasyEnsembleClassifier' objects have no attribute 'n_features_in_' #872**, [https://github.com/scikit-learn-contrib/imbalanced-learn/issues/872](https://github.com/scikit-learn-contrib/imbalanced-learn/issues/872#:~:text=You%20have%20to%20downgrade%20the%20scikit%2Dlearn%20package%20using%3A%20pip3%20install%20scikit%2Dlearn%3D%3D1.0%20%2DU%0AThe%20attribute%20n_features_in_%20is%20deprecated%20and%20its%20support%20was%20lost%20in%20sklearn%20version%201.2)
+
 
