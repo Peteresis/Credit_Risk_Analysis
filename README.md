@@ -16,6 +16,7 @@ El objetivo de este analisis es aplicar seis modelos diferentes de machine learn
 El estudio de los datos se hace con dos archivos de codigo de Python, usando Jupyter Notebooks:
 
 [credit_risk_resampling.ipynb](https://github.com/Peteresis/Credit_Risk_Analysis/blob/e08cba0cb4d441409df51a5e494665d156c13120/credit_risk_resampling.ipynb)
+
 [credit_risk_ensemble.ipynb](https://github.com/Peteresis/Credit_Risk_Analysis/blob/e08cba0cb4d441409df51a5e494665d156c13120/credit_risk_ensemble.ipynb)
 
 
