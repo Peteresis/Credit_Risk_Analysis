@@ -51,7 +51,7 @@ Over sampling and under sampling are techniques used in data mining and data ana
 
 When one class of data is the underrepresented minority class in the data sample (in our case this would be the `high risk` category), over sampling techniques maybe used to duplicate these results for a more balanced amount of positive results in training. Over sampling is used when the amount of data collected is insufficient. A couple of popular over sampling technique are the **Naive Random Oversampling** and **SMOTE (Synthetic Minority Over-sampling Technique)**, which creates synthetic samples by randomly sampling the characteristics from occurrences in the minority class.
 
-## Naive Random Oversampling
+## Naive Random Oversampling and SMOTE Oversampling
 
 ### New Functions Learned for `Oversampling` datasets:
 
@@ -89,6 +89,18 @@ This function comes from the `imblearn` Python Library.  It builds a classificat
 
 ▶️**SUP: Support**:The number of occurrences of each label in y_true.
 
+## :one:.:two: Undersampling Algorithms
+Undersampling is another technique to address class imbalance. Undersampling takes the opposite approach of oversampling. Instead of increasing the number of the minority class, the size of the majority class is decreased.
+
+## Cluster Centroid Algorithms
+
+### New Functions Learned for `Undersampling` datasets:
+
+### ClusterCentroids(random_state=1) 
+Random oversampling can be implemented using the RandomOverSampler class. The class can be defined and takes a sampling_strategy argument that can be set to “minority” to automatically balance the minority class with majority class or classes. This means that if the majority class had 1,000 examples and the minority class had 100, this strategy would oversampling the minority class so that it has 1,000 examples.
+
+### fit_resample(X,y) 
+The `fit_resample` method is used in conjunction with the `RandomOverSampler` to resample the data and targets into a dictionary with a key-value pair of data_resampled and targets_resampled.
 
 
 
@@ -158,3 +170,7 @@ This function comes from the `imblearn` Python Library.  It builds a classificat
 **TowardsDataScience.com: Guide to Classification on Imbalanced Datasets**, https://towardsdatascience.com/guide-to-classification-on-imbalanced-datasets-d6653aa5fa23
 
 **Springer Link: Index of Balanced Accuracy: A Performance Measure for Skewed Class Distributions**, https://link.springer.com/chapter/10.1007/978-3-642-02172-5_57 
+
+**ImbalancedLearn.org: ClusterCentroids**, https://imbalanced-learn.org/stable/references/generated/imblearn.under_sampling.ClusterCentroids.html
+
+
