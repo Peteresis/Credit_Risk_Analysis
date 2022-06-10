@@ -102,6 +102,22 @@ Random oversampling can be implemented using the RandomOverSampler class. The cl
 ### fit_resample(X,y) 
 The `fit_resample` method is used in conjunction with the `RandomOverSampler` to resample the data and targets into a dictionary with a key-value pair of data_resampled and targets_resampled.
 
+## :one:.:three: Combination (Over and Under) Sampling Algorithms
+Oversampling methods duplicate or create new synthetic examples in the minority class, whereas undersampling methods delete or merge examples in the majority class. Both types of resampling can be effective when used in isolation, although can be more effective when both types of methods are used together.
+
+## SMOTEENN algorithm
+
+### New Functions Learned for `Undersampling` datasets:
+
+### ClusterCentroids(random_state=1) 
+Random oversampling can be implemented 
+
+
+
+
+
+
+
 
 
 
@@ -173,4 +189,4 @@ The `fit_resample` method is used in conjunction with the `RandomOverSampler` to
 
 **ImbalancedLearn.org: ClusterCentroids**, https://imbalanced-learn.org/stable/references/generated/imblearn.under_sampling.ClusterCentroids.html
 
-
+**MachineLearningMastery.com: How to Combine Oversampling and Undersampling for Imbalanced Classification**, [https://machinelearningmastery.com/combine-oversampling-and-undersampling-for-imbalanced-classification/](https://machinelearningmastery.com/combine-oversampling-and-undersampling-for-imbalanced-classification/#:~:text=Oversampling%20methods%20duplicate%20or%20create,of%20methods%20are%20used%20together)
