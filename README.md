@@ -35,7 +35,7 @@ With these operations the dataset was reduced from `115,675` applications to `68
 
 Once the dataset was cleaned and organized for our analysis, the data was split into `Training` and `Testing` and the analysis could start.
 
-## New Functions Learned for creating `Training` and `Testing` datasets:
+### New Functions Learned for creating `Training` and `Testing` datasets:
 
 ### get.dummies(X)
 Since the Machine Learning models only work with numbers we need to convert all the cells with `low risk` and `high risk` to numbers.  The get_dummies() function is used to convert categorical variable into dummy/indicator variables.  In this case all the 'low risk' were changed to `0` and the `high risk` to `1`
@@ -45,15 +45,17 @@ This is a function from the `sklearn` Python library.  The train_test_split func
 
 After the `Training` and `Testing` groups are created, we started testing the **Machine Learning Algorithms**.
 
-## Oversampling Algorithms
+## :one:.:one: Oversampling Algorithms
 
 Over sampling and under sampling are techniques used in data mining and data analytics to modify unequal data classes to create balanced data sets. Over sampling and under sampling are also known as resampling.
 
 When one class of data is the underrepresented minority class in the data sample (in our case this would be the `high risk` category), over sampling techniques maybe used to duplicate these results for a more balanced amount of positive results in training. Over sampling is used when the amount of data collected is insufficient. A couple of popular over sampling technique are the **Naive Random Oversampling** and **SMOTE (Synthetic Minority Over-sampling Technique)**, which creates synthetic samples by randomly sampling the characteristics from occurrences in the minority class.
 
-## New Functions Learned for `Oversampling` datasets:
+## Naive Random Oversampling
 
-### RandomOverSampler(random_state=1)
+### New Functions Learned for `Oversampling` datasets:
+
+### RandomOverSampler(random_state=1) 
 Random oversampling can be implemented using the RandomOverSampler class.
 
 The class can be defined and takes a sampling_strategy argument that can be set to “minority” to automatically balance the minority class with majority class or classes.
@@ -61,7 +63,9 @@ The class can be defined and takes a sampling_strategy argument that can be set 
 This means that if the majority class had 1,000 examples and the minority class had 100, this strategy would oversampling the minority class so that it has 1,000 examples.
 
 ### fit_resample(X,y) 
-The fit_resample method resample the data and targets into a dictionary with a key-value pair of data_resampled and targets_resampled.
+The `fit_resample` method is used in conjunction with the `RandomOverSampler` to resample the data and targets into a dictionary with a key-value pair of data_resampled and targets_resampled.
+
+
 
 
 
