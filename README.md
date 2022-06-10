@@ -36,7 +36,7 @@ Applications marked as `Issued`, `Fully Paid` and `Charged Off` were ignored.
 
 With these operations the dataset was reduced from `115,675` applications to `68,817`.
 
-
+Once the dataset was cleaned and organized for our analysis, the data was split into `Training` and `Testing` 
 
 
 
@@ -105,5 +105,9 @@ With these operations the dataset was reduced from `115,675` applications to `68
 **Stack Overflow: scikit learn output metrics.classification_report into CSV/tab-delimited format**, https://stackoverflow.com/questions/39662398/scikit-learn-output-metrics-classification-report-into-csv-tab-delimited-format
 
 **GitHub: [BUG] 'BalancedBaggingClassifier' and 'EasyEnsembleClassifier' objects have no attribute 'n_features_in_' #872**, [https://github.com/scikit-learn-contrib/imbalanced-learn/issues/872](https://github.com/scikit-learn-contrib/imbalanced-learn/issues/872#:~:text=You%20have%20to%20downgrade%20the%20scikit%2Dlearn%20package%20using%3A%20pip3%20install%20scikit%2Dlearn%3D%3D1.0%20%2DU%0AThe%20attribute%20n_features_in_%20is%20deprecated%20and%20its%20support%20was%20lost%20in%20sklearn%20version%201.2)
+
+**W3Resource.com: Pandas: Data Manipulation - get_dummies() function**, https://www.w3resource.com/pandas/get_dummies.php
+
+**BitDegree.org: Splitting Datasets With the Sklearn train_test_split Function**, https://www.bitdegree.org/learn/train-test-split
 
 
