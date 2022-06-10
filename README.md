@@ -11,6 +11,37 @@ We will also use the `RandomOverSampler` and `SMOTE` algorithms to oversample th
 ---
 # :one: Overview of the analysis: Explain the purpose of this analysis.
 
+El objetivo de este analisis es aplicar seis modelos diferentes de machine learning a un mismo dataset y comparar los resultados obtenidos.  El dataset utilizado contiene las aplicaciones de crédito para el primer trimestre del 2019, obtenido de una empresa de créditos personales llamada LendingClub.  El archivo de datos original contiene la información de `115,675` aplicaciones.
+
+El estudio de los datos se hace con dos archivos de codigo de Python, usando Jupyter Notebooks:
+
+[credit_risk_resampling.ipynb](https://github.com/Peteresis/Credit_Risk_Analysis/blob/e08cba0cb4d441409df51a5e494665d156c13120/credit_risk_resampling.ipynb)
+[credit_risk_ensemble.ipynb](https://github.com/Peteresis/Credit_Risk_Analysis/blob/e08cba0cb4d441409df51a5e494665d156c13120/credit_risk_ensemble.ipynb)
+
+
+
+
+Usando la librería Pandas de Python
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/98360572/172030002-e3fe19f0-f388-4959-b5de-c341b1803970.png" width="50%" height="50%">
+</p>
+
+
+<p align="center">
+<div class="row">
+  <div class="column">
+    <img src="https://user-images.githubusercontent.com/98360572/172029042-a3207a29-51f1-4e8a-97aa-43b181cad713.png" width="40%" height="100%">
+    <img src="https://user-images.githubusercontent.com/98360572/172029049-b052e759-27da-4f6d-9dac-8e731f4805a6.png" width="50%" height="110%">
+  </div>
+</div>
+</p>
+
+
+
+|   ⚠️ **NOTE: Please click on any image to zoom**     |
+| ----------- |
+
 
 
 
