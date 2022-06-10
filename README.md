@@ -56,18 +56,21 @@ When one class of data is the underrepresented minority class in the data sample
 ### New Functions Learned for `Oversampling` datasets:
 
 ### RandomOverSampler(random_state=1) 
-Random oversampling can be implemented using the RandomOverSampler class.
-
-The class can be defined and takes a sampling_strategy argument that can be set to “minority” to automatically balance the minority class with majority class or classes.
-
-This means that if the majority class had 1,000 examples and the minority class had 100, this strategy would oversampling the minority class so that it has 1,000 examples.
+Random oversampling can be implemented using the RandomOverSampler class. The class can be defined and takes a sampling_strategy argument that can be set to “minority” to automatically balance the minority class with majority class or classes. This means that if the majority class had 1,000 examples and the minority class had 100, this strategy would oversampling the minority class so that it has 1,000 examples.
 
 ### fit_resample(X,y) 
 The `fit_resample` method is used in conjunction with the `RandomOverSampler` to resample the data and targets into a dictionary with a key-value pair of data_resampled and targets_resampled.
 
+### LogisticRegression(solver='lbfgs', random_state=1)
+This is part of the Python library `sklearn`. The `solver` argument is set to `lbfgs`, which is the default setting. The `random_state` is specified so that anyone will be able to reproduce the same results as they run the code.
 
+### model.predict(X_test) and balance_accuracy_score(y_test,y_pred)
+This is the model used to create predictions and generate the accuracy score of the model
 
+### confusion_matrix(y_test, y_pred)
+This is another function from the `sklearn` Python Library.  It creates a 3x3 table (or a matrix), where all the information about false positives and false negatives is displayed.  It is used to evaluate the precision of the model.
 
+### classification_report_imbalanced
 
 
 
@@ -138,3 +141,5 @@ The `fit_resample` method is used in conjunction with the `RandomOverSampler` to
 **MachineLearningMastery.com: Random Oversampling and Undersampling for Imbalanced Classification**, [https://machinelearningmastery.com/random-oversampling-and-undersampling-for-imbalanced-classification/](https://machinelearningmastery.com/random-oversampling-and-undersampling-for-imbalanced-classification/#:~:text=Random%20oversampling%20can,class%20or%20classes)
 
 **GeeksForGeeks.com: Imbalanced-Learn module in Python**, [https://www.geeksforgeeks.org/imbalanced-learn-module-in-python/](https://www.geeksforgeeks.org/imbalanced-learn-module-in-python/#:~:text=The%20fit_resample%20method%20resample%20the%20data%20and%20targets%20into%20a%20dictionary%20with%20a%20key%2Dvalue%20pair%20of%20data_resampled%20and%20targets_resampled.)
+
+**glemaitre.github.io: imblearn.metrics.classification_report_imbalanced**, http://glemaitre.github.io/imbalanced-learn/generated/imblearn.metrics.classification_report_imbalanced.html
