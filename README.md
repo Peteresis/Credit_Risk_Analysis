@@ -15,9 +15,6 @@ The objective of this analysis is to apply six different unbalanced machine lear
 
 The study of the data is done with two Python code files, using Jupyter Notebooks:
 
-
-Translated with www.DeepL.com/Translator (free version)
-
 [**Code File #1**: credit_risk_resampling.ipynb](https://github.com/Peteresis/Credit_Risk_Analysis/blob/e08cba0cb4d441409df51a5e494665d156c13120/credit_risk_resampling.ipynb)
 
 [**Code File #2**: credit_risk_ensemble.ipynb](https://github.com/Peteresis/Credit_Risk_Analysis/blob/e08cba0cb4d441409df51a5e494665d156c13120/credit_risk_ensemble.ipynb)
