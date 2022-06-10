@@ -87,10 +87,7 @@ This function comes from the `imblearn` Python Library.  It builds a classificat
 
 ▶️**IBA: index balanced accuracy of the geometric mean**:  This is a metric used for evaluating learning processes in two-class imbalanced domains. The method combines an unbiased index of its overall accuracy and a measure about how dominant is the class with the highest individual accuracy rate.
 
-$${a+b}$$
-
-
-
+▶️**SUP: Support**:The number of occurrences of each label in y_true.
 
 
 
@@ -160,4 +157,4 @@ $${a+b}$$
 
 **TowardsDataScience.com: Guide to Classification on Imbalanced Datasets**, https://towardsdatascience.com/guide-to-classification-on-imbalanced-datasets-d6653aa5fa23
 
-**Springer Link: Index of Balanced Accuracy: A Performance Measure for Skewed Class Distributions**:, https://link.springer.com/chapter/10.1007/978-3-642-02172-5_57 
+**Springer Link: Index of Balanced Accuracy: A Performance Measure for Skewed Class Distributions**, https://link.springer.com/chapter/10.1007/978-3-642-02172-5_57 
