@@ -36,9 +36,23 @@ Applications marked as `Issued`, `Fully Paid` and `Charged Off` were ignored.
 
 With these operations the dataset was reduced from `115,675` applications to `68,817`.
 
-Once the dataset was cleaned and organized for our analysis, the data was split into `Training` and `Testing` 
+Once the dataset was cleaned and organized for our analysis, the data was split into `Training` and `Testing` and the analysis could start.
 
+## New Functions Learned:
 
+### get.dummies(X)
+Since the Machine Learning models only work with numbers we need to convert all the cells with `low risk` and `high risk` to numbers.  The get_dummies() function is used to convert categorical variable into dummy/indicator variables.  In this case all the 'low risk' were changed to `0` and the `high risk` to `1`
+
+### train_test_split(X, y, random_state=1)
+This is a function from the `sklearn` Python library.  The train_test_split function is for splitting a single dataset for two different purposes: training and testing. The testing subset is for building the model. The testing subset is for using the model on unknown data to evaluate the performance of the model.
+
+After the `Training` and `Testing` groups are created, we started testing the **Machine Learning Algorithms**.
+
+## Oversampling Algorithms
+
+Over sampling and under sampling are techniques used in data mining and data analytics to modify unequal data classes to create balanced data sets. Over sampling and under sampling are also known as resampling.
+
+When one class of data is the underrepresented minority class in the data sample (in our case this would be the `high risk` category), over sampling techniques maybe used to duplicate these results for a more balanced amount of positive results in training. Over sampling is used when the amount of data collected is insufficient. A couple of popular over sampling technique are the **Naive Random Oversampling** and **SMOTE (Synthetic Minority Over-sampling Technique)**, which creates synthetic samples by randomly sampling the characteristics from occurrences in the minority class.
 
 
 
@@ -110,4 +124,4 @@ Once the dataset was cleaned and organized for our analysis, the data was split 
 
 **BitDegree.org: Splitting Datasets With the Sklearn train_test_split Function**, https://www.bitdegree.org/learn/train-test-split
 
-
+**TechTarget.com: over sampling and under sampling**, https://www.techtarget.com/whatis/definition/over-sampling-and-under-sampling
