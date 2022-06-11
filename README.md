@@ -243,17 +243,17 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 
 # :three: Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/98360572/173168123-b5938c25-d47f-4dd6-9c96-d84ccf90b493.png" width="75%" height="75%">
+</p>
 
+The group of **Over/Under Sampling Models** show the lowest scores in all the parameters calculated, so their reliability for the bank operations is questionable. 
 
+For its part, the **Ensemble Models** have produced outcome figures that look promising. 
 
+The selection of the best machine learning model for this dataset needs to be based on the "High Risk" results because the bank must avoid bad loans as much as possible, as the bank's profitability depends on it.  In that sense, the clear winner is the `Easy Ensemble AdaBoost Classifier` model, which obtained the highest level of **Accuracy** with `91.03%` and also the highest **Precision Score** for `High Risk` with `7.4%`.  However, this model also obtained the highest punctuation in the **Recall Score** `High Risk` which is a factor to consider.    
 
-
-
-
-One thing to think about is that in the original dataset, 99 percent of the applications were labeled "Low Risk," and only 1 percent of the data was labeled "High Risk." This could greatly change the results because there is a chance that the Machine Learning algorithms are making clusters from too small a set of real "High Risk" applications. This level of risk might not be something that banks are willing to take.
-
-
-
+In the original dataset there are `115,675` applications, of which only `526` are `High Risk` (either `Late (16-30 days)`, `Late (31-120 days)` or `In Grace Period`). This represents  `0.45%` of the total, while the `Current` loans represent `99.5%` of all the loan applications. The original data is heavily imbalanced (skewed) towards `Low Risk` and so this could affect the results of the Machine Learning algorithms as they could be making clusters from too small a set of real `High Risk` applications. So the models need to be run in a much larger dataset before one can recommend selecting either of them.
 
 ---
 
