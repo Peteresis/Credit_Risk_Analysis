@@ -239,17 +239,21 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 </div>
 </p>
 
-
-
-
-
-
-
-
-
 ---
 
 # :three: Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+
+
+
+
+
+
+
+
+One thing to think about is that in the original dataset, 99 percent of the applications were labeled "Low Risk," and only 1 percent of the data was labeled "High Risk." This could greatly change the results because there is a chance that the Machine Learning algorithms are making clusters from too small a set of real "High Risk" applications. This level of risk might not be something that banks are willing to take.
+
+
+
 
 ---
 
