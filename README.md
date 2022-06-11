@@ -247,7 +247,7 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
     <img src="https://user-images.githubusercontent.com/98360572/173168123-b5938c25-d47f-4dd6-9c96-d84ccf90b493.png" width="75%" height="75%">
 </p>
 
-The group of `Over/Under Sampling Models` has the lowest scores for all the calculated parameters. This makes it hard to trust them for bank operations.
+The group of `Resampling Models` has the lowest scores for all the calculated parameters. This makes it hard to trust them for bank operations.
 
 For their part, the `Ensemble Models` have come up with numbers that look good.
 
