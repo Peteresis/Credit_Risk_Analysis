@@ -160,8 +160,12 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 
 | Algorithm Name | Accuracy | Precision Score <br> `Low Risk` | Precision Score <br> `High Risk`  | Recall Score <br> `Low Risk` | Recall Score <br> `High Risk`  |
 | -----------   | :-:  | :-: | :-: | :-: | :-:|
-| Naive Random Oversampling  | 64.3% | 100% | 1% | 66% | 62% |
-| Smote Oversampling  | 64.3% | 100% | 1% | 66% | 62% |
+| Naive Random Oversampling  | 64.3% | 99.7% | 1.02% | 62.3% | 66.3% |
+| Smote Oversampling  | 65.3% | 99.7% | 1.2% | 69.2% | 61.3% |
+| Smote Oversampling  | % | % | % | % | % |
+| Smote Oversampling  | % | % | % | % | % |
+| Smote Oversampling  | % | % | % | % | % |
+| Smote Oversampling  | % | % | % | % | % |
 
 
 ## Screenshots
@@ -180,7 +184,16 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 </div>
 </p>
 
+### Smote Oversampling
 
+<p align="left">
+<div class="row">
+  <div class="column">
+    <img src="https://user-images.githubusercontent.com/98360572/173164434-e13f6044-638a-4416-a2cc-ddf917213280.png" width="40%" height="40%">
+    <img src="https://user-images.githubusercontent.com/98360572/173164468-2c77cc85-d7ad-47b0-9546-611bb72c3052.png" width="40%" height="40%">
+  </div>
+</div>
+</p>
 
 
 
