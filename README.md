@@ -171,7 +171,9 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 |   ⚠️ **NOTE: Please click on any image to zoom**     |
 | ----------- |
 
+```
 ### Naive Random Oversampling
+```
 
 <p align="left">
 <div class="row">
@@ -182,7 +184,9 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 </div>
 </p>
 
+```
 ### Smote Oversampling
+```
 
 <p align="left">
 <div class="row">
@@ -193,7 +197,9 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 </div>
 </p>
 
+```
 ### Cluster Centroid Undersampling
+```
 
 <p align="left">
 <div class="row">
@@ -204,7 +210,9 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 </div>
 </p>
 
+```
 ### SMOTEENN Over and Under Sampler
+```
 
 <p align="left">
 <div class="row">
@@ -215,7 +223,9 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 </div>
 </p>
 
+```
 ### Balanced Random Forest Classifier
+```
 
 <p align="left">
 <div class="row">
@@ -226,7 +236,9 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 </div>
 </p>
 
+```
 ### Easy Ensemble AdaBoost Classifier
+```
 
 <p align="left">
 <div class="row">
