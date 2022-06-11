@@ -247,13 +247,13 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
     <img src="https://user-images.githubusercontent.com/98360572/173168123-b5938c25-d47f-4dd6-9c96-d84ccf90b493.png" width="75%" height="75%">
 </p>
 
-The group of **Over/Under Sampling Models** show the lowest scores in all the parameters calculated, so their reliability for the bank operations is questionable. 
+The group of `Over/Under Sampling Models` has the lowest scores for all the calculated parameters. This makes it hard to trust them for bank operations.
 
-For its part, the **Ensemble Models** have produced outcome figures that look promising. 
+For their part, the `Ensemble Models` have come up with numbers that look good.
 
-The selection of the best machine learning model for this dataset needs to be based on the "High Risk" results because the bank must avoid bad loans as much as possible, as the bank's profitability depends on it.  In that sense, the clear winner is the `Easy Ensemble AdaBoost Classifier` model, which obtained the highest level of **Accuracy** with `91.03%` and also the highest **Precision Score** for `High Risk` with `7.4%`.  However, this model also obtained the highest punctuation in the **Recall Score** `High Risk` which is a factor to consider.    
+The `High Risk` results must be used to choose the best machine learning model for this dataset. This is because the bank needs to avoid bad loans as much as possible to make money. In this way, the `Easy Ensemble AdaBoost Classifier` model is the clear winner, since it got the highest **Accuracy** score of `91.03 %` and the highest **Precision Score** for `High Risk` of `7.4 %`. But this model also got the highest score for `High Risk` in the **Recall Score** category, which is something to think about.
 
-In the original dataset there are `115,675` applications, of which only `526` are `High Risk` (either `Late (16-30 days)`, `Late (31-120 days)` or `In Grace Period`). This represents  `0.45%` of the total, while the `Current` loans represent `99.5%` of all the loan applications. The original data is heavily imbalanced (skewed) towards `Low Risk` and so this could affect the results of the Machine Learning algorithms as they could be making clusters from too small a set of real `High Risk` applications. So the models need to be run in a much larger dataset before one can recommend selecting either of them.
+There are `115,675` applications in the original dataset, but only `526` are `High Risk` (either `Late (16-30 days)`, `Late (31-120 days)` or `In Grace Period`). This is `0.45 %` of the total, while `99.5 %` of all loan applications are for `Current` loans. The original data is heavily imbalanced or skewed toward `Low Risk`, which could affect the results of the Machine Learning algorithms by making clusters from too few real `High Risk` applications. So, the models need to be tested on a much bigger set of data before either of them can be recommended.
 
 ---
 
