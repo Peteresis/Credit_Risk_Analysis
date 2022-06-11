@@ -54,7 +54,7 @@ Once the dataset was cleaned and organized for our analysis, the data was split 
 Since the Machine Learning models only work with numbers we need to convert all the cells with `low risk` and `high risk` to numbers.  The get_dummies() function is used to convert categorical variable into dummy/indicator variables.  In this case all the 'low risk' were changed to `0` and the `high risk` to `1`
 
 ### train_test_split(X, y, random_state=1)
-This is a function from the `sklearn` Python library.  The train_test_split function is for splitting a single dataset for two different purposes: training and testing. The testing subset is for building the model. The testing subset is for using the model on unknown data to evaluate the performance of the model.
+This is a function from the `sklearn` Python library.  The train_test_split function is for splitting a single dataset for two different purposes: training and testing. The training subset is for building the model. The testing subset is for using the model on unknown data to evaluate the performance of the model.
 
 After the `Training` and `Testing` groups are created, we started testing the **Machine Learning Algorithms**.
 
