@@ -127,7 +127,7 @@ Combine SMOTE with Edited Nearest Neighbor (ENN) using Python to balance the dat
 The SMOTE method can generate noisy samples by interpolating new points between marginal outliers and inliers. This issue can be solved by cleaning the space resulting from over-sampling.  In this regard the **E**dited **N**earest-**N**eighbours (**ENN**) is one of the cleaning methods available.
 
 ## :one:.:four: Ensemble Learners
-Oversampling methods duplicate or create new synthetic examples in the minority class, whereas undersampling methods delete or merge examples in the majority class. Both types of resampling can be effective when used in isolation, although can be more effective when both types of methods are used together.
+Ensemble learning is a general meta approach to machine learning that seeks better predictive performance by combining the predictions from multiple models.
 
 ## Balanced Random Forest Classifier
 Random forest algorithm is one of the most popular and potent supervised machine learning algorithms capable of performing both classification and regression tasks.
