@@ -124,7 +124,7 @@ Combine SMOTE with Edited Nearest Neighbor (ENN) using Python to balance the dat
 ### New Functions Learned for `SMOTEENN` datasets:
 
 ### SMOTEENN(random_state=0) 
-The SMOTE method can generate noisy samples by interpolating new points between marginal outliers and inliers. This issue can be solved by cleaning the space resulting from over-sampling.  In this regard the edited nearest-neighbours is one of the cleaning methods available.
+The SMOTE method can generate noisy samples by interpolating new points between marginal outliers and inliers. This issue can be solved by cleaning the space resulting from over-sampling.  In this regard the **E**dited **N**earest-**N**eighbours (**ENN**) is one of the cleaning methods available.
 
 ## :one:.:four: Ensemble Learners
 Oversampling methods duplicate or create new synthetic examples in the minority class, whereas undersampling methods delete or merge examples in the majority class. Both types of resampling can be effective when used in isolation, although can be more effective when both types of methods are used together.
