@@ -164,8 +164,8 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 | Smote Oversampling  | 65.3% | 99.7% | 1.2% | 69.2% | 61.3% |
 | Cluster Centroid Undersampling  | 54.4% | 99.5% | 0.67% | 39.5% | 69.3% |
 | SMOTEENN Over and Under Sampler | 64.5% | 99.7% | 0.98% | 56.7% | 72.2% |
-| Balanced Random Forest Classifier  | % | % | % | % | % |
-| Easy Ensemble AdaBoost Classifier  | % | % | % | % | % |
+| Balanced Random Forest Classifier  | 78.9% | 99.8% | 3.2% | 87.4% | 70.3% |
+| Easy Ensemble AdaBoost Classifier  | 91.03% | 99.9% | 7.4% | 93.5% | 88.5% |
 
 
 ## Screenshots
@@ -217,7 +217,27 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 </div>
 </p>
 
+### Balanced Random Forest Classifier
 
+<p align="left">
+<div class="row">
+  <div class="column">
+    <img src="https://user-images.githubusercontent.com/98360572/173165199-8414b566-cc10-4147-be59-8c7ebe0fc622.png" width="40%" height="40%">
+    <img src="https://user-images.githubusercontent.com/98360572/173165215-defcd3d1-569c-4fe1-949b-c4944996918e.png" width="40%" height="40%">
+  </div>
+</div>
+</p>
+
+### Easy Ensemble AdaBoost Classifier
+
+<p align="left">
+<div class="row">
+  <div class="column">
+    <img src="https://user-images.githubusercontent.com/98360572/173165317-3516751f-dd35-4dd0-9b89-db3e39586fca.png" width="40%" height="40%">
+    <img src="https://user-images.githubusercontent.com/98360572/173165329-2549f083-e9ab-4708-aab9-967998f1f476.png" width="40%" height="40%">
+  </div>
+</div>
+</p>
 
 
 
