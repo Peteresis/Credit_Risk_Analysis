@@ -13,6 +13,19 @@ We will also use the `RandomOverSampler` and `SMOTE` algorithms to oversample th
 
 The objective of this analysis is to apply six different unbalanced machine learning models to the same dataset and compare the results obtained.  The dataset used contains the credit applications for the first quarter of 2019, obtained from a personal credit company called **LendingClub**.  The original data file contains information on `115,675` applications.
 
+These are the six **unbalanced machine learning models** that will be used in this analysis:
+
+
+|   #    | Type of Algorithm      | Name of Algorithm |
+| ----------- | -----------   | -----------  |
+|   1    | Oversampling Algorithm | Naive Random Oversampling |
+|   2    | Oversampling Algorithm | SMOTE Oversampling |
+|   3    | Undersampling Algorithm | Cluster Centroid |
+|   4    | Combination (Over and Under) Sampling Algorithm | SMOTEENN |
+|   5    | Ensemble Learner | Balanced Random Forest Classifier |
+|   6    | Ensemble Learning | Easy Ensemble AdaBoost Classifier |
+ 
+### Files used for the study
 The study of the data is done with two Python code files, using Jupyter Notebooks:
 
 [**Code File #1**: credit_risk_resampling.ipynb](https://github.com/Peteresis/Credit_Risk_Analysis/blob/e08cba0cb4d441409df51a5e494665d156c13120/credit_risk_resampling.ipynb)
@@ -113,49 +126,70 @@ Combine SMOTE with Edited Nearest Neighbor (ENN) using Python to balance the dat
 ### SMOTEENN(random_state=0) 
 The SMOTE method can generate noisy samples by interpolating new points between marginal outliers and inliers. This issue can be solved by cleaning the space resulting from over-sampling.  In this regard the edited nearest-neighbours is one of the cleaning methods available.
 
+## :one:.:four: Ensemble Learners
+Oversampling methods duplicate or create new synthetic examples in the minority class, whereas undersampling methods delete or merge examples in the majority class. Both types of resampling can be effective when used in isolation, although can be more effective when both types of methods are used together.
 
+## Balanced Random Forest Classifier
+Random forest algorithm is one of the most popular and potent supervised machine learning algorithms capable of performing both classification and regression tasks.
 
+### New Functions Learned for `Balanced Random Forest Classifier` datasets:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br>
-
+### BalancedRandomForestClassifier(n_estimators=100, random_state=1) 
+This algorithm creates a forest with several decision trees. The more trees in the forest, the more robust the prediction is and hence higher accuracy to model multiple decision trees.
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/98360572/172030002-e3fe19f0-f388-4959-b5de-c341b1803970.png" width="50%" height="50%">
+    <img src="https://user-images.githubusercontent.com/98360572/173160587-58f3be65-d848-450e-af20-6c612e039b5d.png" width="50%" height="50%">
 </p>
 
+## Easy Ensemble AdaBoost classifier
+An AdaBoost classifier is a meta-estimator that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset but where the weights of incorrectly classified instances are adjusted such that subsequent classifiers focus more on difficult cases.
+
+### New Functions Learned for `Easy Ensemble AdaBoost classifier` datasets:
+
+### EasyEnsembleClassifier(n_estimators=100, random_state=1) 
+AdaBoost also called Adaptive Boosting is a technique in Machine Learning used as an Ensemble Method. The most common algorithm used with AdaBoost is decision trees with one level that means with Decision trees with only 1 split. These trees are also called Decision Stumps.
 
 <p align="center">
+    <img src="https://user-images.githubusercontent.com/98360572/173161111-365914b7-abce-439a-92e4-c3ab5cf99c96.png" width="25%" height="25%">
+</p>
+
+---
+# :two: Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+
+## :two:.:one: Oversampling Algorithm / Naive Random Oversampling
+
+| Algorithm Name | Accuracy | Precision Score <br> `Low Risk` | Precision Score <br> `High Risk`  | Recall Score <br> `Low Risk` | Recall Score <br> `High Risk`  |
+| -----------   | :-:  | :-: | :-: | :-: | :-:|
+| Naive Random Oversampling  | 64.3% | 100% | 1% | 66% | 62% |
+| Smote Oversampling  | 64.3% | 100% | 1% | 66% | 62% |
+
+
+## Screenshots
+
+|   ⚠️ **NOTE: Please click on any image to zoom**     |
+| ----------- |
+
+### Naive Random Oversampling
+
+<p align="left">
 <div class="row">
   <div class="column">
-    <img src="https://user-images.githubusercontent.com/98360572/172029042-a3207a29-51f1-4e8a-97aa-43b181cad713.png" width="40%" height="100%">
-    <img src="https://user-images.githubusercontent.com/98360572/172029049-b052e759-27da-4f6d-9dac-8e731f4805a6.png" width="50%" height="110%">
+    <img src="https://user-images.githubusercontent.com/98360572/173164118-81231084-fd26-4ddf-85cf-c24ffd6267c0.png" width="40%" height="40%">
+    <img src="https://user-images.githubusercontent.com/98360572/173163893-3ddda1c9-ed17-4687-a31a-7903f8e0b9b2.png" width="40%" height="40%">
   </div>
 </div>
 </p>
 
 
 
-|   ⚠️ **NOTE: Please click on any image to zoom**     |
-| ----------- |
 
 
 
 
----
-# :two: Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+
+
+
+
 
 
 ---
@@ -193,3 +227,7 @@ The SMOTE method can generate noisy samples by interpolating new points between 
 **MachineLearningMastery.com: How to Combine Oversampling and Undersampling for Imbalanced Classification**, [https://machinelearningmastery.com/combine-oversampling-and-undersampling-for-imbalanced-classification/](https://machinelearningmastery.com/combine-oversampling-and-undersampling-for-imbalanced-classification/#:~:text=Oversampling%20methods%20duplicate%20or%20create,of%20methods%20are%20used%20together)
 
 **TowardsDataScience.com: Imbalanced Classification in Python: SMOTE-ENN Method**, https://towardsdatascience.com/imbalanced-classification-in-python-smote-enn-method-db5db06b8d50
+
+**Medium.com: Surviving in a Random Forest with Imbalanced Datasets**, [https://medium.com/sfu-cspmp/surviving-in-a-random-forest-with-imbalanced-datasets-b98b963d52eb](https://medium.com/sfu-cspmp/surviving-in-a-random-forest-with-imbalanced-datasets-b98b963d52eb#:~:text=Random%20forest%20algorithm%20is,model%20multiple%20decision%20trees)
+
+**AnalyticsVidhya.com: Introduction to AdaBoost Algorithm with Python Implementation**, https://www.analyticsvidhya.com/blog/2021/03/introduction-to-adaboost-algorithm-with-python-implementation/
