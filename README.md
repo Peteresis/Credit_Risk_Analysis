@@ -156,8 +156,6 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 ---
 # :two: Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
-## :two:.:one: Oversampling Algorithm / Naive Random Oversampling
-
 | Algorithm Name | Accuracy | Precision Score <br> `Low Risk` | Precision Score <br> `High Risk`  | Recall Score <br> `Low Risk` | Recall Score <br> `High Risk`  |
 | -----------   | :-:  | :-: | :-: | :-: | :-:|
 | Naive Random Oversampling  | 64.3% | 99.7% | 1.02% | 62.3% | 66.3% |
