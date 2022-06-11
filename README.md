@@ -251,7 +251,7 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 
 ---
 
-# :three: Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+# :three: Recap: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/98360572/173168123-b5938c25-d47f-4dd6-9c96-d84ccf90b493.png" width="75%" height="75%">
