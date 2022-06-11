@@ -162,10 +162,10 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 | -----------   | :-:  | :-: | :-: | :-: | :-:|
 | Naive Random Oversampling  | 64.3% | 99.7% | 1.02% | 62.3% | 66.3% |
 | Smote Oversampling  | 65.3% | 99.7% | 1.2% | 69.2% | 61.3% |
-| Smote Oversampling  | % | % | % | % | % |
-| Smote Oversampling  | % | % | % | % | % |
-| Smote Oversampling  | % | % | % | % | % |
-| Smote Oversampling  | % | % | % | % | % |
+| Cluster Centroid Undersampling  | 54.4% | 99.5% | 0.67% | 39.5% | 69.3% |
+| SMOTEENN Over and Under Sampler | 64.5% | 99.7% | 0.98% | 56.7% | 72.2% |
+| Balanced Random Forest Classifier  | % | % | % | % | % |
+| Easy Ensemble AdaBoost Classifier  | % | % | % | % | % |
 
 
 ## Screenshots
@@ -191,6 +191,28 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
   <div class="column">
     <img src="https://user-images.githubusercontent.com/98360572/173164434-e13f6044-638a-4416-a2cc-ddf917213280.png" width="40%" height="40%">
     <img src="https://user-images.githubusercontent.com/98360572/173164468-2c77cc85-d7ad-47b0-9546-611bb72c3052.png" width="40%" height="40%">
+  </div>
+</div>
+</p>
+
+### Cluster Centroid Undersampling
+
+<p align="left">
+<div class="row">
+  <div class="column">
+    <img src="https://user-images.githubusercontent.com/98360572/173164675-4130c960-80c1-4f72-8621-0a196c7d96c0.png" width="40%" height="40%">
+    <img src="https://user-images.githubusercontent.com/98360572/173164687-063ec995-02bd-4727-a002-c1f973f640de.png" width="40%" height="40%">
+  </div>
+</div>
+</p>
+
+### SMOTEENN Over and Under Sampler
+
+<p align="left">
+<div class="row">
+  <div class="column">
+    <img src="https://user-images.githubusercontent.com/98360572/173164927-a7573280-7666-40a3-b913-e01e2dcfd27f.png" width="40%" height="40%">
+    <img src="https://user-images.githubusercontent.com/98360572/173164943-d3191354-2f86-4519-8705-2c628c04979c.png" width="40%" height="40%">
   </div>
 </div>
 </p>
