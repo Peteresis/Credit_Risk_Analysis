@@ -23,7 +23,7 @@ These are the six **unbalanced machine learning models** that will be used in th
 |   3    | Undersampling Algorithm | Cluster Centroid |
 |   4    | Combination (Over and Under) Sampling Algorithm | SMOTEENN |
 |   5    | Ensemble Learner | Balanced Random Forest Classifier |
-|   6    | Ensemble Learning | Easy Ensemble AdaBoost Classifier |
+|   6    | Ensemble Learner | Easy Ensemble AdaBoost Classifier |
  
 ### Files used for the study
 The study of the data is done with two Python code files, using Jupyter Notebooks:
